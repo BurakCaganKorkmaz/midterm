@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "To what extent did colonialism and imperialism affect the late emancipation of countries?"
 author: 
-  - Last Name, First Name[^1]
+  - Korkmaz, Burak Cagan[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -32,7 +32,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: Student ID, [Github Repo](https://github.com/BurakCaganKorkmaz/midterm)
 
 # Important Information About Midterm
 
@@ -45,16 +45,14 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
 
+My objective is to analyze a dataset containing information about countries' independence holidays. I eliminated rows with "NA" values and unnecessary columns containing repetitive information. The remaining variables include country, weekday, day, month, name of holiday, year of event, independence from, and event commemorated and notes. The dataset was sourced from "https://github.com/rfordatascience/tidytuesday," and after eliminating rows with "NA" values, there were a total of 95 entries. My research question is "To what extent did colonialism and imperialism affect the late emancipation of countries?", and my hypotheses are "Null Hypothesis: The United Kingdom performed more colonial actions than other imperial countries, leading to the delayed independence of countries under their influence. Alternate Hypothesis: The United Kingdom did not perform more colonial actions than other imperial countries, and did not have any impact on the independence of any country." I found four relevant articles in my literature review, which provided additional information. Using functional codes, I can gather the necessary data from the dataset.
 The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
-
-In this section, mention the purpose and importance of your work in a few paragraphs.
 
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
-
+Although the database I found played a significant role in determining my research question, my articles, which I used as a source when forming my hypotheses, guided me. 
+At first, when I started studying this database, I realized that countries with a high level of development today declared their independence a long time ago, and many of them had their own empires. After converting the data in the list into a pure form, I have observed that the countries'  ,that we can actually mention as the majority, independence dates are almost included into second quarter of the twentieth century and some of them are even later. Starting from here, I found four articles on the topic. Topics of the articles I found; It included Imperialism and Colonialism. After doing research on my existing knowledge on these two issues, I realized that the colonial and imperialist policies followed by countries, especially the United Kingdom, have posed a big problem for countries that want to gain their independence. No nation ever voluntarily gave up the dominion of any province, how troublesome soever it might be to govern it, and how small soever the revenue which it afforded might be in proportion to the expense which it occasioned [@Shabbir:2022]. Most of all, the Balkans, Far East Asia. Also there were lots of African countries ,which we have mentioned as third world countries, were mentioned.  Britain was indeed an expanding power. But for much of the period she was able to spread informally, by exercising commercial, cultural and diplomatic influence, whereas in the last quarter of the century new territories, principally in Africa, were incorporated into the formal empire. The underlying aim, British supremacy, remained constant [@Hopkins:1988]. Imperialism is defined as the despotic or arbitrary rule of an emperor, the imperial principle or spirit, the defence of interests called imperial (command, superior power). Imperialism is generally referred to as post-capitalist colonialism. However, this approach has also been criticised. Because it has been emphasised that imperialism, as can be understood from its definition, is also seen before capitalism. It has even been said that it existed before colonialism [@Bayeh:2015].  As an introduction to the article, I would like to briefly talk about British imperialism and colonialism.  To comprehend Britain's 19th-century imperialist desires, it is important to examine the overlooked development of the financial and service sectors. The proliferation of sterling as a worldwide currency and the riches generated from overseas trade supported the continuity of the British political structure. However, there is a need for additional investigation to examine the connection between finance and manufacturing, as well as the influence of external factors on local crises. Despite World War I, Britain's imperialistic aspirations persisted, with endeavors to restore the pre-war international order, establish a sterling zone, and strengthen imperial bonds after World War II. While the English experience of imperialism may be one-of-a-kind, additional research is necessary to compare it with other European imperialist powers. 
 
 
 **References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
